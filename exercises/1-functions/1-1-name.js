@@ -9,39 +9,35 @@ drawName();
 
 function drawName() {
 
-    //Z
-    context.lineWidth = 5;
-    context.strokeStyle = 'red';
-    context.beginPath();
-    context.moveTo(100, 50);
-    context.lineTo(300, 50);
-    context.lineTo(120,240);
-    context.lineTo(300,240);
-    context.stroke()
-    
+//Z
+context.lineWidth = 5;
+context.strokeStyle = 'red';
+context.beginPath();
+context.lineTo(390,62);
+context.lineTo(510,63);
+context.lineTo(386,231);
+context.lineTo(509,230);
+context.stroke()
     
 //A
-    context.beginPath();
-    context.moveTo(400, 240);
-    context.lineTo(460, 50);
-    context.lineTo(500, 240);
-    context.lineTo(485, 170);
-    context.lineTo(420, 170);
-    context.stroke()
+context.beginPath();
+context.lineTo(565,240);
+context.lineTo(600,66);
+context.lineTo(645,241);
+context.lineTo(630,187);
+context.lineTo(576,187);
+context.stroke();
     
-
 //y
 context.beginPath();
-context.moveTo(585, 50);
-context.lineTo(640, 140);
-context.lineTo(640, 240);
-context.lineTo(640, 140);
-context.lineTo(640, 140);
-context.lineTo(680, 50);
+context.moveTo(665,61);
+context.lineTo(725,134);
+context.lineTo(727,240);
+context.lineTo(725,134);
+context.lineTo(774,61);
 context.stroke();
 
 //N
-context.strokeStyle = "red";
 context.beginPath();
 context.moveTo(815,50);
 context.lineTo(815,140);
@@ -55,16 +51,20 @@ context.stroke();
 
 //A
 context.beginPath();
-context.moveTo(965,55);
-context.lineTo(985,50);
-
+context.moveTo(960,245);
+context.lineTo(990,55);
+context.lineTo(1050,240);
+context.lineTo(1034,190);
+context.lineTo(965,190);
 context.stroke();
 
-
-
-
-
-
-
-
+//B
+context.beginPath()
+context.lineTo(1080,57);
+context.lineTo(1084,242);
+context.lineTo(1150,170);
+context.lineTo(1105,150);
+context.lineTo(1145,100);
+context.lineTo(1078,57);
+context.stroke();
 }
